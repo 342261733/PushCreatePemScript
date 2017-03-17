@@ -39,6 +39,7 @@ Enter pass phrase for push_private.pem:
 ## 使用方式
 
 > cd xxx
+
 > python pushCreatePem.py
 
 #### 手动修改文件名到脚本
@@ -56,8 +57,11 @@ PushCerPemResultName = "push_pem" # 推送证书最终pem文件名
 #### 命令输入文件名
 
 > 需要输入证书p12文件名（Y/N）:Y
+
 > 请输入推送证书公钥p12文件名:xxx
+
 > 请输入推送证书私钥p12文件名:xxx
+
 > 请输入最终pem文件名:xxx
 
 
